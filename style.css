@@ -1,0 +1,330 @@
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
+.navbar-custom {
+	background-color: #00BAE1;
+	/* 007C97 */
+}
+
+.nav-link {
+	color: white !important;
+}
+
+h2, h4, h5, h6 {
+	text-align: center;
+}
+
+.landing-text h1 {
+	color: black;
+	font-size: 500;
+	font-weight: 700;
+}
+
+.landing-text h3, .landing-page h4 {
+	color: black;	
+}
+.lorem{
+	color: black;
+}
+p {
+	text-align: center;
+}
+
+.navbar {
+	padding: .8rem !important;
+}
+
+.nav-item {
+	line-height: 3;
+}
+
+.carousel-inner img {
+	width: 100%;
+	height: 100%;
+}
+
+.navbar-brand {
+	height: auto !important;
+	padding: 0 15px 5px;
+}
+
+.padding {
+	padding: 80px 0;
+}
+
+.padding img {
+	width: 100%;
+}
+
+#home {
+	background: url(images/digital-printing.jpg) no-repeat center center fixed;
+	display: table;
+	height: 100%;
+	width: 100%;
+	position: relative;
+	background-size: cover;
+}
+
+.landing-text {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.navbar-toggler {
+	border: 1px solid whitesmoke !important;
+}
+
+#fixed {
+	background: url(images/digital-printing.jpg) no-repeat center center fixed;
+	display: table;
+	height: 60%;
+	width: 100%;
+	position: relative;
+	background-size: cover;
+}
+#fixed1 {
+	background: url(images/2016427.png) no-repeat center center fixed;
+	display: table;
+	height: 30%;
+	width: 100%;
+	position: relative;
+	background-size: cover;
+}
+
+a {
+	color: white !important;
+}
+.fa {
+	padding: 15px;
+	font-size: 25px;
+	color: white;
+}
+#main{
+	margin-left: 0 !important;
+}
+.fa:hover, .fas:hover {
+	color: #666;
+	text-decoration: none;
+}
+
+.icon {
+	max-width: 200px;
+}
+
+footer {
+	background-color: #00BAE1;
+	color: white;
+}
+.about{
+	background-color: #007C97;
+	height: auto;
+}
+.text-about{
+	color: white;
+}
+.col-sm-2{
+	margin-left: 12.5%;
+}
+.btn-group .button {
+    background-color: #00BAE1; 
+    border: none;
+    color: white;
+    padding: 3px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    float: right;
+}
+
+.btn-group .button:hover {
+    background-color: rgb(16, 195, 231);
+}
+.sideBtn {
+    background-color: #00BAE1;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.Btn {
+    background-color: #00BAE1; 
+    color: white; 
+    border: none;
+}
+
+.Btn:hover {
+    background-color:rgb(16, 195, 231);
+    color: white;
+}
+
+/*Register*/
+
+.latjur {
+	display: center;
+	margin: 100px auto;
+    color: #00BAE1;
+	width: 700px;
+	height: 200px;
+}
+
+.bottom{
+	border-bottom: 2px solid #00BAE1;
+}
+
+.h1{
+	margin-bottom: 10%;
+}
+
+/* Mobile Responsive */
+
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 768px) {
+	.fa {
+		font-size: 20px;
+		padding: 10px;
+	}
+	.icon {
+		padding-top: 5%;
+		max-width: 100px;
+	}	
+	.navbar-expand-md {
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		-ms-flex-flow: row nowrap;
+		flex-flow: row nowrap;
+		-webkit-box-pack: start;
+		-ms-flex-pack: start;
+		justify-content: flex-start;
+	}
+	.carousel-item {
+		height: 20rem;
+	}
+	.carousel-item > img {
+		position: absolute;
+		top: 0;
+		left: 0;
+		min-width: 100%;
+		height: 20rem;
+	}
+	.carousel-caption h1{
+		font-size: 100%;
+	}
+
+	.carousel-caption h3{
+		font-size: 80%;
+	}
+}
+
+@media (max-width: 576px) {
+
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+/* Modal Header */
+.modal-header {
+    padding: 2px 16px;
+    background-color: #00BAE1;
+    color: white;
+}
+h2.login{
+	text-align: center;
+}
+/* Modal Body */
+.modal-body {padding: 2px 16px;}
+
+/* Modal Footer */
+.modal-footer {
+    padding: 2px 16px;
+    background-color: #00BAE1;
+    color: white;
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 70% !important;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+.text-login{
+	border: none;
+	border-bottom: 1px #00BAE1 solid;
+	width: 100%;
+}
+/* Add Animation */
+@keyframes animatetop {
+    from {top: -300px; opacity: 0}
+    to {top: 0; opacity: 1}
+}
+
+/* MY ACCOUNT */
+.container-myAccount{
+	margin-left: 570px;
+}
+.text-account{
+	border: none;
+	border-bottom: 1px #00BAE1 solid;
+}
+#content{
+	margin-top: 100px;
+}
+#content table{
+	width: 100%;
+}
